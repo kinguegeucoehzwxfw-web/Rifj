@@ -1,0 +1,15 @@
+local args = {
+	"Abandon_Quest",
+	{
+		QuestSlot = "QuestSlot1"
+	}
+}
+game:GetService("ReplicatedStorage"):WaitForChild("OtherEvent"):WaitForChild("QuestEvents"):WaitForChild("Quest"):FireServer(unpack(args))
+local args = {
+	"Mobile_Button"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("OtherEvent"):WaitForChild("SecretEvents"):WaitForChild("FreeMoney"):FireServer(unpack(args))
+local args = {
+	"FriendBoost"
+}
+game:GetService("ReplicatedStorage"):WaitForChild("OtherEvent"):WaitForChild("MainEvents"):WaitForChild("Modules"):FireServer(unpack(args))
